@@ -1,4 +1,4 @@
-import dacournumber as dac
+
 vCodbarra = 341
 vCodmoeda = 9
 dacCodbarra = '?'
@@ -11,4 +11,3 @@ vAgencia = '0057'
 vContacorrente = 12345
 dacAgconta = '?'
 
-print(dac.geradac(vNossonumero))
