@@ -1,4 +1,4 @@
-import mod10 as dac
+
 vCodbarra = 341
 vCodmoeda = 9
 dacCodbarra = '?'
