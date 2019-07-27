@@ -33,3 +33,24 @@ def mod11(entrance):
     final_result_ = 11 - (sum_ % 11)
     return final_result_
 
+# DAC do nosso número
+def dacournumber(agencia, cc, carteira, nossonumero):
+    entrance_ = str(agencia + cc + carteira + nossonumero)
+    if mod10(entrance_) == '10':
+        result_ = '0'
+    else:
+        result_ = mod10(entrance_)
+
+    return str(result_)
+
+# DAC conta corrente e agencia
+def dacagenciacc(agencia, cc):
+    entrance_ = str(agencia + cc)
+    if mod10(entrance_) == '10':
+        result_ = '0'
+    else:
+        result_ = mod10(entrance_)
+    return str(result_)
+
+
+
